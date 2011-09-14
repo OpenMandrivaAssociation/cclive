@@ -8,7 +8,7 @@ Version:	%{version}
 Release:	%{release}
 License:	GPLv3
 URL:		http://cclive.sourceforge.net/
-Group:		Networing/WWW
+Group:		Networking/WWW
 Source0:	http://sourceforge.net/projects/cclive/files/0.7/%{name}-%{version}.tar.bz2
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 BuildRequires:	quvi-devel >= 0.2.16.1
