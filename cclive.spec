@@ -1,12 +1,12 @@
 Name:		cclive
-Version:	0.7.8
-Release:	%mkrel 1
+Version:	0.7.9
+Release:	1
 Summary:	A tool for downloading media from YouTube and similar websites
 License:	GPLv3
 URL:		http://cclive.sourceforge.net/
 Group:		Networking/WWW
 Source0:	http://sourceforge.net/projects/cclive/files/0.7/%{name}-%{version}.tar.bz2
-BuildRequires:	quvi-devel >= 0.2.16.1
+BuildRequires:	pkgconfig(libquvi)
 BuildRequires:	pcre-devel
 BuildRequires:	curl-devel
 BuildRequires:	boost-devel
@@ -30,16 +30,10 @@ Features:
 %configure2_5x
 
 %install
-[ "%{buildroot}" != "/" ] && rm -rf %{buildroot}
-
 %makeinstall_std
-
-%clean
-[ "%{buildroot}" != "/" ] && rm -rf %{buildroot}
 
 %files
 %doc README NEWS COPYING ChangeLog
-%defattr(-,root,root)
 %{_bindir}/%{name}
 %{_mandir}/*/%{name}.*
 
