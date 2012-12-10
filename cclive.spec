@@ -37,3 +37,25 @@ Features:
 %{_bindir}/%{name}
 %{_mandir}/*/%{name}.*
 
+
+
+%changelog
+* Sat Mar 31 2012 Bernhard Rosenkraenzer <bero@bero.eu> 0.7.9-2
++ Revision: 788455
+- Rebuild for boost 1.49
+
+* Tue Mar 06 2012 Alexander Khrukin <akhrukin@mandriva.org> 0.7.9-1
++ Revision: 782410
+- version update  0.7.9
+
+* Mon Jan 30 2012 Andrey Bondrov <abondrov@mandriva.org> 0.7.8-1
++ Revision: 769733
+- New version 0.7.8
+
+* Wed Sep 14 2011 Andrey Bondrov <abondrov@mandriva.org> 0.7.6-1
++ Revision: 699745
+- imported package cclive
+
+
+* Wed Sep 14 2011 Andrey Bondrov <bondrov@math.dvgu.ru> 0.7.6-1mdv2011.0
+- First release for Mandriva
