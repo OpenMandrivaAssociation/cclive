@@ -1,6 +1,6 @@
 Name:		cclive
 Version:	0.7.9
-Release:	2
+Release:	3
 Summary:	A tool for downloading media from YouTube and similar websites
 License:	GPLv3
 URL:		http://cclive.sourceforge.net/
