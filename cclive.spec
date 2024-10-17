@@ -3,7 +3,7 @@ Version:	0.7.9
 Release:	3
 Summary:	A tool for downloading media from YouTube and similar websites
 License:	GPLv3
-URL:		http://cclive.sourceforge.net/
+URL:		https://cclive.sourceforge.net/
 Group:		Networking/WWW
 Source0:	http://sourceforge.net/projects/cclive/files/0.7/%{name}-%{version}.tar.bz2
 BuildRequires:	pkgconfig(libquvi)
